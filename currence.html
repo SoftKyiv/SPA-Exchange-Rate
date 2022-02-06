@@ -127,22 +127,22 @@
           <div class="col-6">
             <div class="card p-3">
               <form>
-                <h1 class="h2 mb-4">Конвертер валют</h1>
+                <h1 class="h2 mb-4 text-center">Конвертер валют</h1>
                 <div class="courses">
                   <div class="course-item card card-body">
-                    <div class="course-item-title">1 USD =</div>
+                    <div class="course-item-title text-center">1 USD =</div>
                     <div class="course-item-value" data-value="USD">--.--</div>
                   </div>
                   <div class="course-item card card-body">
-                    <div class="course-item-title">1 EUR =</div>
+                    <div class="course-item-title text-center">1 EUR =</div>
                     <div class="course-item-value" data-value="EUR">--.--</div>
                   </div>
                   <div class="course-item card card-body">
-                    <div class="course-item-title">1 GBP =</div>
+                    <div class="course-item-title text-center">1 GBP =</div>
                     <div class="course-item-value" data-value="GBP">--.--</div>
                   </div>
                   <div class="course-item card card-body">
-                    <div class="course-item-title">1 BYN =</div>
+                    <div class="course-item-title text-center">1 BYN =</div>
                     <div class="course-item-value" data-value="BYN">--.--</div>
                   </div>
                 </div>
@@ -259,14 +259,17 @@
             <p
               class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"
             >
-              © Copyright 2022 EXCHANGE RATE Company - All Rights Reserved
+              © Copyright <span id="getYear"></span> EXCHANGE RATE Company
+              <br />
+              All Rights Reserved
             </p>
           </div>
         </div>
       </div>
     </section>
-    <script src="js/getCurrency.js"></script>
-    <script src="js/currencyExchange.js"></script>
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/getCurrency.js"></script>
+    <script type="text/javascript" src="js/currencyExchange.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script async type="text/javascript" src="js/getCurrentYear.js"></script>
   </body>
 </html>
